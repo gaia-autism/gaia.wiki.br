@@ -6,6 +6,16 @@ themes = {
     post-svg: #7D669E,
     post-dev: #637a91,
     post-misc: #7AAB13
+    post-g1: #005F97
+    post-g2: #005F97
+    post-g3: #005F97
+    post-g4: #005F97
+    post-g5: #005F97
+    post-g6: #005F97
+    post-g7: #005F97
+    post-g8: #005F97
+    post-g9: #005F97
+    post-g10: #005F97
 }
 
 for theme, category-color in themes
@@ -44,15 +54,15 @@ for theme, category-color in themes
         .share a
             &:hover svg
                 fill category-color
-                
+
         body
-            &.search-overlay 
+            &.search-overlay
                 &:after
                     +below(cut)
                         background-color category-color
         .icon-menu
             fill category-color
-            
+
         .box-body
             h2
                 color category-color
