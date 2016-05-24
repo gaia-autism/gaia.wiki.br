@@ -1,7 +1,7 @@
 # Site settings
 description: Guia de Acessibilidade de Interfaces Web com foco em aspectos do Autismo
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://talitapagani.com/gaia" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "/gaia" # the subpath of your site, e.g. /blog
+url: "http://talitapagani.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Talita Pagani
