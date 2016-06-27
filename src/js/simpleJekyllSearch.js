@@ -1,13 +1,13 @@
 (function($) {
     $.fn.simpleJekyllSearch = function(options) {
         var settings = $.extend({
-            jsonFile        : '/search.json',
-            jsonFormat      : 'title,tags,url,date',
-            template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
+            jsonFile        : 'http://talitapagani.com/gaia/search.json',
+            jsonFormat      : 'title,description,tags,url,date',
+            template : '<li><article><a href="{url}">{title} - {description}</a></article></li>',
             searchResults   : '.search-results',
-            searchResultsTitle   : '<h4>Search results:</h4>',
-            limit           : '10',
-            noResults       : '<p>Oh snap!<br/><small>We found nothing :(</small></p>'
+            searchResultsTitle   : '<h4>Recomendações encontradas:</h4>',
+            limit           : '30',
+            noResults       : '<p>Não encontramos nenhum resultado com o termo pesquisado, tente novamente</p>'
         }, options);
 
         var properties = settings.jsonFormat.split(',');
