@@ -26,7 +26,7 @@ description: "Procure as recomendações por tags #tag."
         {% for post in pages_list reversed %}
             {% if post.title != null %}
             {% if group == null or group == post.group %}
-            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> {{ post.description }}</li>
             {% endif %}
             {% endif %}
         {% endfor %}

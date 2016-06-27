@@ -1,6 +1,8 @@
 # Site settings
+title: Projeto GAIA
 description: Guia de Acessibilidade de Interfaces Web com foco em aspectos do Autismo
 baseurl: "/gaia" # the subpath of your site, e.g. /blog
+#baseurl: ""
 url: "http://talitapagani.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
