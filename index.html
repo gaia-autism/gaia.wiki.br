@@ -13,7 +13,7 @@ layout: default
                             {{ post.title }}
                         </h2>
                     </a>
-                    <a class="post-category-link" href="{{ post.main-class | prepend: 'categoria/' | prepend: site.baseurl }}">
+                    <a class="post-category-link" href="{{ post.main-class | prepend: '/categoria/' | prepend: site.baseurl }}">
                       {% if post.category %}<h3 class="post-category" item-prop="category">{{ post.category }}</h3>{% endif %}
                     </a>
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
