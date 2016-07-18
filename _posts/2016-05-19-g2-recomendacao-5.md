@@ -6,7 +6,7 @@ main-class: 'g2'
 color: '#005F97'
 category: "Customização"
 tags:
-- "customização"
+- "customização de interface"
 - "controle do usuário"
 - "atenção"
 - "leitura"
