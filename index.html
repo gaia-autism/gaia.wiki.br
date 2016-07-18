@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<main class="home" id="post" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
     {% assign sortedPosts = site.posts | sort: 'title' %}
     {% for post in sortedPosts %}
